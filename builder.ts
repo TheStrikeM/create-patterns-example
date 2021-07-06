@@ -38,5 +38,5 @@ class CarBuilder {
 }
 
 const car = new CarBuilder()
-car.enableAutoDisable(true).enableAutoRepair(true).changeEngine('V8').build()
-console.log(car)
+const advancedCar = car.enableAutoDisable(true).enableAutoRepair(true).changeEngine('V8').build()
+console.log(advancedCar)
